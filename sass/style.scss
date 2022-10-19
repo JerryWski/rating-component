@@ -15,7 +15,8 @@ html {
   background-color: hsl(216, 12%, 8%);
 }
 
-main {
+body {
+  max-width: 1440px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,14 +24,28 @@ main {
   flex-direction: column;
 }
 
+main {
+  margin: auto;
+}
+
 .card {
   max-height: 100%;
   border: 1px solid black;
-  color: #fff;
-  background-color: hsl(214, 30%, 14%);
+  max-width: 400px;
+  color: hsl(217, 12%, 63%);
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
   margin: 0 1.8em;
   padding: 2em;
-  border-radius: 7px;
+  border-radius: 25px;
+
+  &__header {
+    margin-top: 0.5em;
+    color: hsl(0, 0%, 100%);
+  }
 
   &__image {
     padding: 1em;
@@ -38,23 +53,36 @@ main {
     border-radius: 50%;
   }
 
+  &__text {
+    padding: 1.4em 0;
+  }
+
   .card__numbers {
+    margin-top: .6em;
     display: flex;
-    padding: 0.7em;
     justify-content: space-between;
     align-items: center;
 
-    &--one {
-      padding: .5em;
+    &--noactive {
+      margin: .3em;
+      cursor: pointer;
+      color: hsl(217, 12%, 63%);
+      border: none;
+      padding: 1.2em;
       background-color: hsl(214, 23%, 18%);
       border-radius: 50%;
+      line-height: 0.5;
     }
-
-    
   }
   &__button {
-    margin-top: 1em;
+    color: #fff;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 40px;
+    border: none;
     min-width: 100%;
+    text-transform: uppercase;
+    background-color: hsl(25, 97%, 53%);
   }
 }
 

@@ -25,18 +25,20 @@
       <div class="card first">
         <img class="card__image" src="./img/icon-star.svg" alt="" />
         <h1 class="card__header">How did we do?</h1>
-        <p class="card___text">
+        <p class="card__text">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
-        <div class="card__numbers">
-          <div class="card__numbers--one">1</div>
-          <div class="card__numbers--one">2</div>
-          <div class="card__numbers--one">3</div>
-          <div class="card__numbers--one">4</div>
-          <div class="card__numbers--one">5</div>
-        </div>
-        <button class="card__button">Submit</button>
+        <form action="#" method="post" id="numbers-form" name="numbers-form" class="form-container">
+          <div class="card__numbers">
+            <input type="button" id="one" class="card__numbers--noactive" value="1">
+            <input type="button" id="two" class="card__numbers--noactive" value="2">
+            <input type="button" id="three" class="card__numbers--noactive" value="3">
+            <input type="button" id="four" class="card__numbers--noactive" value="4">
+            <input type="button" id="five" class="card__numbers--noactive" value="5">
+          </div>
+        </form>
+        <input type="submit" id="submit-button" class="card__button" value="submit">
       </div>
     </main>
 
