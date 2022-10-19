@@ -16,7 +16,7 @@ html {
   background-color: hsl(216deg, 12%, 8%);
 }
 
-body {
+main {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,4 +31,46 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.card {
+  max-height: 100%;
+  border: 1px solid black;
+  color: #fff;
+  background-color: hsl(214deg, 30%, 14%);
+  margin: 0 1.8em;
+  padding: 2em;
+  border-radius: 7px;
+}
+.card__image {
+  padding: 1em;
+  background-color: hsl(214deg, 23%, 18%);
+  border-radius: 50%;
+}
+.card .card__numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.7em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card .card__numbers--one {
+  padding: 0.5em;
+  background-color: hsl(214deg, 23%, 18%);
+  border-radius: 50%;
+}
+.card__button {
+  margin-top: 1em;
+  min-width: 100%;
+}
+
+@media (max-width: 375px) {
+  .attribution {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
