@@ -83,6 +83,7 @@ main {
   line-height: 0.5;
 }
 .card__button {
+  cursor: pointer;
   color: #fff;
   margin-top: 2em;
   padding: 1em;
