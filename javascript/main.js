@@ -6,6 +6,9 @@ const checkedRating = document.querySelector("#checked");
 const thankYouCard = document.querySelector(".thank-you");
 const mainCard = document.querySelector(".card");
 
+let selectedInput;
+
+
 
 ratedInputs.forEach((rated) => {
   rated.addEventListener("click", () => {
@@ -14,6 +17,15 @@ ratedInputs.forEach((rated) => {
 });
 
 submitBtn.addEventListener("click", () => {
+    // ratedInputs.forEach(check => {
+    //     let value = check.value
+    //     if(check.checked) {
+    //         console.log('fajo');
+    //     }
+        
+    // })
+
+
   mainCard.style.display = "none";
   thankYouCard.style.display = "block";
 });
