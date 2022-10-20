@@ -40,7 +40,6 @@ main {
 
 .card {
   max-height: 100%;
-  border: 1px solid black;
   max-width: 400px;
   color: hsl(217deg, 12%, 63%);
   background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
