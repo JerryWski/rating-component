@@ -28,7 +28,9 @@ main {
   margin: auto;
 }
 
-.card{
+.card,
+.thank-you {
+  display: bloc;
   max-height: 100%;
   max-width: 400px;
   color: hsl(217, 12%, 63%);
@@ -63,9 +65,6 @@ main {
     justify-content: space-between;
     align-items: center;
 
-
-    
-
     &--noactive {
       margin: auto;
       cursor: pointer;
@@ -88,6 +87,12 @@ main {
     text-transform: uppercase;
     background-color: hsl(25, 97%, 53%);
   }
+}
+
+.thank-you img {
+  display: block;
+  margin: auto;
+
 }
 
 @media (max-width: 375px) {
