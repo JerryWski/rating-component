@@ -1,5 +1,19 @@
-const submitBtn = document.querySelector('.card__button');
+const submitBtn = document.querySelector('#submit-button');
+const rateBtn = document.querySelector('#rate-button');
 const ratedInputs = document.querySelectorAll('.card__numbers--noactive');
 const activeInput = document.querySelector('.active');
 const checkedRating = document.querySelector('#checked');
-console.log(checkedRating);
+const thankYouCard = document.querySelector('.thank-you')
+const mainCard = document.querySelector('.card');
+console.log(mainCard);
+
+
+submitBtn.addEventListener('click', () => {
+    mainCard.style.display='none';
+    thankYouCard.style.display='block';
+})
+
+rateBtn.addEventListener('click', () => {
+    mainCard.style.display='block';
+    thankYouCard.style.display='none';
+})

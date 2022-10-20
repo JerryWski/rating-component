@@ -18,8 +18,8 @@ html {
 }
 
 body {
-  max-width: 1440px;
-  height: 100vh;
+  max-width: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
