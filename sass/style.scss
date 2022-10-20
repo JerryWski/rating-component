@@ -13,6 +13,7 @@
 html {
   font-size: 62, 5%;
   background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
 }
 
 body {
@@ -42,10 +43,11 @@ main {
   margin: 0 1.8em;
   padding: 2em;
   border-radius: 25px;
-  
+
   &__header {
     margin-top: 0.5em;
     color: hsl(0, 0%, 100%);
+    font-size: 1.7rem;
 
     &--thanks {
       text-align: center;
@@ -60,13 +62,14 @@ main {
   }
 
   &__text {
+    font-size: 0.85rem;
     padding: 1.4em 0;
-    
+
     &--selected {
       margin: 1.5em 0;
       display: inline-block;
-      font-size: 1.1rem;
-      padding: .4em .7em;
+      font-size: 1rem;
+      padding: 0.4em 0.7em;
       color: hsl(25, 97%, 53%);
       border-radius: 40px;
       background-color: hsl(214, 23%, 18%);
