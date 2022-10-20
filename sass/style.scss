@@ -46,6 +46,11 @@ main {
   &__header {
     margin-top: 0.5em;
     color: hsl(0, 0%, 100%);
+
+    &--thanks {
+      text-align: center;
+      margin: 0;
+    }
   }
 
   &__image {
@@ -56,6 +61,15 @@ main {
 
   &__text {
     padding: 1.4em 0;
+
+    &--selected {
+      text-align: center;
+    }
+
+    &--rated {
+      text-align: center;
+      padding-bottom: 0.5em;
+    }
   }
 
   .card__numbers {
@@ -92,7 +106,6 @@ main {
 .thank-you img {
   display: block;
   margin: auto;
-
 }
 
 @media (max-width: 375px) {

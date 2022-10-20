@@ -54,6 +54,11 @@ main {
   margin-top: 0.5em;
   color: hsl(0deg, 0%, 100%);
 }
+.card__header--thanks,
+.thank-you__header--thanks {
+  text-align: center;
+  margin: 0;
+}
 .card__image,
 .thank-you__image {
   padding: 1em;
@@ -63,6 +68,15 @@ main {
 .card__text,
 .thank-you__text {
   padding: 1.4em 0;
+}
+.card__text--selected,
+.thank-you__text--selected {
+  text-align: center;
+}
+.card__text--rated,
+.thank-you__text--rated {
+  text-align: center;
+  padding-bottom: 0.5em;
 }
 .card .card__numbers,
 .thank-you .card__numbers {
