@@ -31,7 +31,6 @@ main {
 
 .card,
 .thank-you {
-  display: bloc;
   max-height: 100%;
   max-width: 400px;
   color: hsl(217, 12%, 63%);
@@ -97,7 +96,7 @@ main {
       background-color: hsl(214, 23%, 18%);
       border-radius: 50%;
       line-height: 0.4;
-      transition: all 0.4s ease-in-out;
+      transition: all 0.3s ease-in-out;
     }
 
     &--noactive:hover {
@@ -122,21 +121,31 @@ main {
     min-width: 100%;
     text-transform: uppercase;
     background-color: hsl(25, 97%, 53%);
-    transition: all .4s;
+    transition: all 0.4s;
   }
 
   &__button:hover {
-    color:  hsl(25, 97%, 53%);
+    color: hsl(25, 97%, 53%);
     background-color: #fff;
   }
 }
 
 .thank-you {
+  display: none;
   text-align: center;
 }
 .thank-you img {
   display: block;
   margin: auto;
+}
+
+.attribution {
+  color: #fff;
+
+  a {
+    text-decoration: none;
+    color: hsl(25, 97%, 53%);
+  }
 }
 
 @media (max-width: 375px) {
