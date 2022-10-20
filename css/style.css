@@ -116,12 +116,12 @@ main {
 .card .card__numbers--noactive:hover,
 .thank-you .card__numbers--noactive:hover {
   color: #fff;
-  background-color: hsl(217deg, 12%, 63%);
-}
-.card .card__numbers .active,
-.thank-you .card__numbers .active {
-  color: #fff;
   background-color: hsl(25deg, 97%, 53%);
+}
+.card .card__numbers--noactive:focus,
+.thank-you .card__numbers--noactive:focus {
+  color: #fff;
+  background-color: hsl(217deg, 12%, 63%);
 }
 .card__button,
 .thank-you__button {

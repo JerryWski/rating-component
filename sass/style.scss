@@ -101,12 +101,12 @@ main {
 
     &--noactive:hover {
       color: #fff;
-      background-color: hsl(217, 12%, 63%);
+      background-color: hsl(25, 97%, 53%);
     }
 
-    .active {
+    &--noactive:focus {
       color: #fff;
-      background-color: hsl(25, 97%, 53%);
+      background-color:hsl(217, 12%, 63%) ;
     }
   }
   &__button {
