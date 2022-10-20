@@ -81,12 +81,14 @@ main {
   }
 
   .card__numbers {
-    width: auto;
+    
     margin-top: 0.6em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 
+    
     &--noactive {
       margin: auto;
       cursor: pointer;
@@ -96,7 +98,7 @@ main {
       background-color: hsl(214, 23%, 18%);
       border-radius: 50%;
       line-height: 0.4;
-      transition: all 0.3s ease-in-out;
+      transition: all 0.4s ease-in-out;
     }
 
     &--noactive:hover {

@@ -88,7 +88,6 @@ main {
 }
 .card .card__numbers,
 .thank-you .card__numbers {
-  width: auto;
   margin-top: 0.6em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,6 +98,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 .card .card__numbers--noactive,
 .thank-you .card__numbers--noactive {
@@ -110,8 +110,8 @@ main {
   background-color: hsl(214deg, 23%, 18%);
   border-radius: 50%;
   line-height: 0.4;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .card .card__numbers--noactive:hover,
 .thank-you .card__numbers--noactive:hover {
