@@ -111,11 +111,25 @@ main {
   background-color: hsl(214deg, 23%, 18%);
   border-radius: 50%;
   line-height: 0.4;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.card .card__numbers--noactive:hover,
+.thank-you .card__numbers--noactive:hover {
+  color: #fff;
+  background-color: hsl(217deg, 12%, 63%);
+}
+.card .card__numbers .active,
+.thank-you .card__numbers .active {
+  color: #fff;
+  background-color: hsl(25deg, 97%, 53%);
 }
 .card__button,
 .thank-you__button {
   cursor: pointer;
   color: #fff;
+  font-weight: 700;
+  letter-spacing: 4px;
   margin-top: 2em;
   padding: 1em;
   border-radius: 40px;
@@ -123,6 +137,13 @@ main {
   min-width: 100%;
   text-transform: uppercase;
   background-color: hsl(25deg, 97%, 53%);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.card__button:hover,
+.thank-you__button:hover {
+  color: hsl(25deg, 97%, 53%);
+  background-color: #fff;
 }
 
 .thank-you {

@@ -97,11 +97,24 @@ main {
       background-color: hsl(214, 23%, 18%);
       border-radius: 50%;
       line-height: 0.4;
+      transition: all 0.4s ease-in-out;
+    }
+
+    &--noactive:hover {
+      color: #fff;
+      background-color: hsl(217, 12%, 63%);
+    }
+
+    .active {
+      color: #fff;
+      background-color: hsl(25, 97%, 53%);
     }
   }
   &__button {
     cursor: pointer;
     color: #fff;
+    font-weight: 700;
+    letter-spacing: 4px;
     margin-top: 2em;
     padding: 1em;
     border-radius: 40px;
@@ -109,6 +122,12 @@ main {
     min-width: 100%;
     text-transform: uppercase;
     background-color: hsl(25, 97%, 53%);
+    transition: all .4s;
+  }
+
+  &__button:hover {
+    color:  hsl(25, 97%, 53%);
+    background-color: #fff;
   }
 }
 
