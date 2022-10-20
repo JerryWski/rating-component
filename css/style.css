@@ -48,6 +48,7 @@ main {
   margin: 0 1.8em;
   padding: 2em;
   border-radius: 25px;
+  text-align: center;
 }
 .card__header,
 .thank-you__header {
@@ -71,7 +72,13 @@ main {
 }
 .card__text--selected,
 .thank-you__text--selected {
-  text-align: center;
+  margin: 1.5em 0;
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 0.4em 0.7em;
+  color: hsl(25deg, 97%, 53%);
+  border-radius: 40px;
+  background-color: hsl(214deg, 23%, 18%);
 }
 .card__text--rated,
 .thank-you__text--rated {
