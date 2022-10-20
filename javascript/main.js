@@ -6,6 +6,7 @@ const checkedRating = document.querySelector("#checked");
 const thankYouCard = document.querySelector(".thank-you");
 const mainCard = document.querySelector(".card");
 
+
 ratedInputs.forEach((rated) => {
   rated.addEventListener("click", () => {
     checkedRating.innerHTML = rated.value;
